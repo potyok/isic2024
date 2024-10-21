@@ -22,6 +22,9 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 - [5 Effective Ways to Handle Imbalanced Data in Machine Learning](https://machinelearningmastery.com/5-effective-ways-to-handle-imbalanced-data-in-machine-learning/)
 - [A multiple combined method for rebalancing medical data with class imbalances](https://doi.org/10.1016/j.compbiomed.2021.104527)
 - [Skin Cancer Detection Using Deep Learning—A Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10252190/)
+- [Detection and Classification of Melanoma Skin Cancer Using Image Processing Technique](https://pmc.ncbi.nlm.nih.gov/articles/PMC10649387/)
+- [Dermatologist-level classification of skin cancer with deep neural networks](https://www.nature.com/articles/nature21056)
+- [Skin Cancer Classification With Deep Learning: A Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9327733/)
 
 ## Files
 
