@@ -28,5 +28,7 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 - [Squeeze-MNet: Precise Skin Cancer Detection Model for Low Computing IoT Devices Using Transfer Learning](https://www.mdpi.com/2072-6694/15/1/12)
 
 ## Files
+- src/isic_2024_data_prepare.ipynb: Contains the data prepare solution (data loading, train/val/test splitting and visulazing data)
 
 ## Run
+Load the isic_2024_data_prepare.ipynb and run all cells, if the original dataset is not available, you can download it from [here](https://drive.google.com/file/d/11RQvjL61Ss2w2R1kKWHa2vdaJLdIGup6/view?usp=drive_link).
