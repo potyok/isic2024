@@ -27,9 +27,11 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 - [Skin Cancer Classification With Deep Learning: A Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9327733/)
 - [Squeeze-MNet: Precise Skin Cancer Detection Model for Low Computing IoT Devices Using Transfer Learning](https://www.mdpi.com/2072-6694/15/1/12)
 - [Free-form deformation of solid geometric models](https://dl.acm.org/doi/10.1145/15886.15903)
+- [Analysis of dermoscopy images by using ABCD rule for early detection of skin cancer](https://www.sciencedirect.com/science/article/pii/S2666285X21000017)
 
 ## Files
 - src/isic_2024_data_prepare.ipynb: Contains the data prepare solution (data loading, train/val/test splitting and visulazing data)
+- src/FFD.ipynb: Contains a custom image deformation technique implementation
 
 ## Run
 Load the isic_2024_data_prepare.ipynb and run all cells, if the original dataset is not available, you can download it from [here](https://drive.google.com/file/d/11RQvjL61Ss2w2R1kKWHa2vdaJLdIGup6/view?usp=drive_link).
