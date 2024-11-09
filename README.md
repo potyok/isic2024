@@ -4,9 +4,9 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 
 ## Project homework - ISIC 2024 - Skin Cancer Detection with 3D-TBP
 
-| Group     | Details                                      |
-| --------- | -------------------------------------------- |
-| Team name | IsIcTeam2024                                 |
+| Group     | Details                                                                      |
+| --------- | ---------------------------------------------------------------------------- |
+| Team name | IsIcTeam2024                                                                 |
 | Members   | Attila Nemes (B6RYIK),</br> Csaba Potyok (OZNVQ4),</br> Peter Arany (U4VQHM) |
 
 ## Project description
@@ -30,8 +30,13 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 - [Analysis of dermoscopy images by using ABCD rule for early detection of skin cancer](https://www.sciencedirect.com/science/article/pii/S2666285X21000017)
 
 ## Files
+
 - src/isic_2024_data_prepare.ipynb: Contains the data prepare solution (data loading, train/val/test splitting and visulazing data)
 - src/FFD.ipynb: Contains a custom image deformation technique implementation
+- src/isic_2024_baseline.ipynb: Contains the data loading, train and test pipeline with metrics
 
 ## Run
+
 Load the isic_2024_data_prepare.ipynb and run all cells, if the original dataset is not available, you can download it from [here](https://drive.google.com/file/d/11RQvjL61Ss2w2R1kKWHa2vdaJLdIGup6/view?usp=drive_link).
+
+Load the isic_2024_baseline.ipynb and run all cells, to load data and train/test the baseline model. At the data loading you can set the hair_remove flag on data_module to use hair removal algorithm.
