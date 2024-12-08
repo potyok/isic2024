@@ -12,6 +12,9 @@ model = None
 transform = None
 
 def classify_image(image):
+    """
+    Method for Gradio client to process an uploaded image.
+    """
     global model
     global device
     global transform

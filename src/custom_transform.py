@@ -1,6 +1,11 @@
 import cv2
 
+
 def remove_hair(image, image_size=(224, 224), filter_size=(5, 5), threshold=5, max_value=255):
+    """
+    The Squeeze algorithm that was mentioned in an article.
+    Remove hair from the image and resize to given size with CUBIC interpolation.
+    """
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, filter_size)
 
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
