@@ -51,6 +51,8 @@ During the project, we reviewed several articles that dealt with issues and solu
 - **src/mobilenet_v3.ipynb**: Contains MobileNetv3-based model's hyperparameter optimization process.
 - **src/pretrained.ipynb**: Contains an example project for using pretrained model.
 - **src/isic_2024_m4.ipynb**: Contains a simple CNN model with another model for tabular data and combine them result for classify samples.
+- **src/isic_2024_mobilnet_tabular.ipynb**: Contains combined model (MobileNetv3 with with selector net) 
+- **src/isic_2024_mobilnet_alexnet_tabular.ipynb**: Contains complex model (MobileNetv3 with AlexNet with selector net) 
 - **src/app.py**: Contains config and setup for Gradio interface.
 - **src/custom_transform.py**: Contains the hair removal algorithm for Gradio app.
 - **src/inference_module.py**: Contains the module that can load trained model.
