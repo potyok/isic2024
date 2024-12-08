@@ -16,7 +16,7 @@ The aim of the repository is to present our solution to the [ISIC2024 kaggle cha
 **Our approach**: We plan to explore classification by image alone, as well as classification by images and their associated metadata. We plan to use a pre-trained net for image processing and then fine tune it. We will use hyperparameter optimization to achieve the best model and find a solution for the unbalanced dataset. We plan to use [Gradio](https://www.gradio.app/) to build an AI service from it.
 
 > [!NOTE]
-> The detailed documentation is available in PDF and docx format in the **docs** folder.
+> The detailed documentation is available in [PDF](https://github.com/potyok/isic2024/blob/main/docs/ISIC_2024_documentation.pdf) and [docx](https://github.com/potyok/isic2024/blob/main/docs/ISIC_2024_documentation.docx) format in the **docs** folder.
 
 ## Related works
 
